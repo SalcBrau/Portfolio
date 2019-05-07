@@ -41,6 +41,7 @@ nav {
 nav ul {
   margin-left: 55%;
   padding-bottom: 5px;
+  margin-top: -11px;
 }
 nav ul a:hover {
   color: white;
@@ -122,21 +123,19 @@ nav ul a {
   padding: 0;
 }
 #home #title {
-  color: white;
-  font-size: 150px;
-  margin-top: 80px;
+  font-size: 70px;
+  margin-top: 113px;
 }
 #home #under-text {
-  font-size: 70px;
+  font-size: 35px;
   margin-bottom: 60px;
 }
-
-#projects-heading {
+#home #projects-heading {
   background: white;
   margin-bottom: 0;
 }
-#projects-heading #projects-title {
-  margin-top: 35px;
+#home #projects-title {
+  margin-top: 15px;
   margin-bottom: 35px;
   font-size: 85px;
   font-weight: bold;
@@ -155,6 +154,7 @@ nav ul a {
   font-size: 35px;
   font-weight: bold;
   text-decoration: none;
+  display: block;
 }
 #screenshots p {
   font-family: calibri;
@@ -306,3 +306,51 @@ nav ul a {
   padding-top: 13px;
   font-style: italic;
 }
+
+@media (min-width: 375px) {
+  #home #title {
+    font-size: 105px;
+    margin-top: 50px;
+  }
+  #home #under-text {
+    font-size: 50px;
+    margin-bottom: 60px;
+  }
+}
+@media (min-width: 544px) {
+  #home #title {
+    font-size: 119px;
+    margin-top: 37px;
+  }
+  #home #under-text {
+    font-size: 60px;
+  }
+}
+@media (min-width: 819px) {
+  #home #title {
+    font-size: 119px;
+    margin-top: 83px;
+  }
+  #home #under-text {
+    font-size: 57px;
+  }
+}
+@media (min-width: 992px) {
+  #home #title {
+    font-size: 135px;
+    margin-top: 83px;
+  }
+  #home #under-text {
+    font-size: 65px;
+  }
+}
+@media (min-width: 1200px) {
+  #home #title {
+    font-size: 150px;
+  }
+  #home #under-text {
+    font-size: 70px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
