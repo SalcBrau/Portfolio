@@ -11,15 +11,15 @@ $(document).ready(function() {
   var projects = [];
 
   projects.push("https://codepen.io/Bosa100/full/LLVLJW/");
-  projects.push("https://codepen.io/Bosa100/full/pPKyJv/");
+    projects.push("https://salcbrau.github.io/SimonGame/");
   projects.push("https://codepen.io/Bosa100/full/XRZppv/");
   projects.push("https://codepen.io/Bosa100/full/BRYLEy/");
   projects.push("https://codepen.io/Bosa100/full/dWBYmB/");
-  projects.push("http://cpscserv.dom.edu/students/salcbrau/CPSC_280/A5/index.html"
+    projects.push("https://salcbrau.github.io/ChanceTribute/"
   );
   projects.push("https://codepen.io/Bosa100/full/yJwbEE/");
   projects.push("https://codepen.io/Bosa100/full/ZKGWXB/");
-  projects.push("https://codepen.io/Bosa100/full/oWodrr/");
+    projects.push("https://salcbrau.github.io/JavascriptCalculator/");
 
   $navLinks.hover(
     function() {
