@@ -17,7 +17,7 @@ $(document).ready(function() {
   projects.push("https://codepen.io/Bosa100/full/dWBYmB/");
     projects.push("https://salcbrau.github.io/ChanceTribute/"
   );
-  projects.push("https://codepen.io/Bosa100/full/yJwbEE/");
+    projects.push("https://salcbrau.github.io/RandomQuotesMachine/");
   projects.push("https://codepen.io/Bosa100/full/ZKGWXB/");
     projects.push("https://salcbrau.github.io/JavascriptCalculator/");
 
