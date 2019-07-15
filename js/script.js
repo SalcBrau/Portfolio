@@ -11,14 +11,14 @@ $(document).ready(function() {
   var projects = [];
 
   projects.push("https://codepen.io/Bosa100/full/LLVLJW/");
-    projects.push("https://salcbrau.github.io/SimonGame/");
-  projects.push("https://codepen.io/Bosa100/full/XRZppv/");
-  projects.push("https://codepen.io/Bosa100/full/BRYLEy/");
+  projects.push("https://salcbrau.github.io/SimonGame/");
+  projects.push("https://salcbrau.github.io/TicTacToeGame");
+  projects.push("https://salcbrau.github.io/PomodoroClock");
   projects.push("https://codepen.io/Bosa100/full/dWBYmB/");
     projects.push("https://salcbrau.github.io/ChanceTribute/"
   );
     projects.push("https://salcbrau.github.io/RandomQuotesMachine/");
-  projects.push("https://codepen.io/Bosa100/full/ZKGWXB/");
+  projects.push("https://salcbrau.github.io/WikipediaViewer/");
     projects.push("https://salcbrau.github.io/JavascriptCalculator/");
 
   $navLinks.hover(
