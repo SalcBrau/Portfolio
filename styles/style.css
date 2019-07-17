@@ -351,5 +351,14 @@ nav ul a {
     font-size: 70px;
   }
 }
+.navbar-dark {
+  background-color: black;
+  border-color: white;
+}
+
+.bg-dark {
+  background: black;
+  border-color: white;
+}
 
 /*# sourceMappingURL=style.css.map */
