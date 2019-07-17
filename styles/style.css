@@ -14,7 +14,6 @@
   background: rgba(0, 0, 0, 0);
   position: absolute;
   z-index: 1;
-  top: 16px;
   color: white;
   opacity: 0;
   padding-top: 75px;
@@ -346,6 +345,16 @@ nav ul a {
   #home #under-text {
     font-size: 65px;
   }
+
+  .hover-over {
+    left: 27px;
+    top: 15px;
+  }
+
+  .last {
+    left: 268px;
+    top: 15p;
+  }
 }
 @media (min-width: 1200px) {
   #home #title {
@@ -357,6 +366,16 @@ nav ul a {
 
   .container {
     min-width: 1300px;
+  }
+
+  .hover-over {
+    top: 15px;
+    left: 15px;
+  }
+
+  .last {
+    top: 15px;
+    left: 15px;
   }
 }
 .navbar-dark {
