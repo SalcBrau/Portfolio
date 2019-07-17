@@ -6,9 +6,6 @@
 #image-bg
 	background: black
   
-.container
-	min-width: 1300px
-
 .hover-over
 	width: 400px
 	height: 275px
@@ -31,6 +28,10 @@ nav
 	font-size: 30px
 	opacity: 1
   
+	button
+		margin-top: 5px
+		margin-bottom: 5px
+		
 	ul
 		margin-left: 55%
 		padding-bottom: 5px
@@ -116,11 +117,11 @@ nav
 		padding: 0
   
 	#title
-		font-size: 70px
+		font-size: 150px
 		margin-top: 113px
 		
 	#under-text
-		font-size: 35px
+		font-size: 70px
 		margin-bottom: 60px
 		
 	#projects-heading
@@ -159,8 +160,10 @@ nav
 		margin-right: 25px
 		margin-bottom: 3px
 		margin-top: 15px
-		
-    
+	
+.container 
+	min-width: 0
+	
 #about
 	background:  rgba(138, 131, 171, 0.2)
 	width: 100%
@@ -334,7 +337,6 @@ nav
 		#under-text
 			font-size: 65px
 			
-			
 @media (min-width: 1200px)
 	#home
 		#title	
@@ -343,6 +345,9 @@ nav
 		#under-text
 			font-size: 70px
 
+	.container
+		min-width: 1300px
+			
 .navbar-dark 
 	background-color: black
 	border-color: white
