@@ -190,8 +190,8 @@ nav ul a {
   color: #383545;
 }
 #about img {
-  width: 700px;
-  height: 650px;
+  width: 450px;
+  height: 450px;
   border-radius: 50%;
   margin-bottom: 60px;
 }
@@ -363,7 +363,7 @@ nav ul a {
 @media (min-width: 1200px) {
   #home #title {
     font-size: 150px;
-    margin-top: 113px;
+    margin-top: 75px;
   }
   #home #under-text {
     font-size: 70px;
@@ -388,6 +388,11 @@ nav ul a {
     margin-left: 55%;
     padding-bottom: 5px;
     margin-top: -11px;
+  }
+
+  #about img {
+    width: 550px;
+    height: 500px;
   }
 }
 .navbar-dark {
