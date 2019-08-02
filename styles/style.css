@@ -19,6 +19,8 @@
   padding-top: 75px;
   font-size: 65px;
   cursor: pointer;
+  left: 5%;
+  top: 15px;
 }
 
 body {
@@ -319,6 +321,11 @@ nav ul a {
   #home #under-text {
     font-size: 60px;
   }
+
+  .hover-over {
+    left: 10.5%;
+    top: 15px;
+  }
 }
 @media (min-width: 819px) {
   #home #title {
@@ -327,6 +334,11 @@ nav ul a {
   }
   #home #under-text {
     font-size: 57px;
+  }
+
+  .hover-over {
+    left: 148px;
+    top: 15px;
   }
 }
 @media (min-width: 992px) {
