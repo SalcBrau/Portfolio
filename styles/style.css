@@ -190,8 +190,8 @@ nav ul a {
   color: #383545;
 }
 #about img {
-  width: 450px;
-  height: 450px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   margin-bottom: 60px;
 }
@@ -224,7 +224,7 @@ nav ul a {
   display: block;
 }
 #about input, #about textarea {
-  width: 500px;
+  width: 400px;
   height: 45px;
   font-size: 25px;
   padding-left: 10px;
@@ -325,6 +325,14 @@ nav ul a {
   .hover-over {
     left: 10.5%;
     top: 15px;
+  }
+
+  #about input, #about textarea {
+    width: 500px;
+  }
+  #about img {
+    width: 450px;
+    height: 450px;
   }
 }
 @media (min-width: 819px) {
