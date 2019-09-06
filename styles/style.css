@@ -190,8 +190,8 @@ nav ul a {
   color: #383545;
 }
 #about img {
-  width: 350px;
-  height: 350px;
+  width: 325px;
+  height: 325px;
   border-radius: 50%;
   margin-bottom: 60px;
 }
@@ -224,7 +224,7 @@ nav ul a {
   display: block;
 }
 #about input, #about textarea {
-  width: 400px;
+  width: 350px;
   height: 45px;
   font-size: 25px;
   padding-left: 10px;
@@ -332,7 +332,7 @@ nav ul a {
   }
   #about img {
     width: 450px;
-    height: 450px;
+    height: 450p;
   }
 }
 @media (min-width: 819px) {
