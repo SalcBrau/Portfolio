@@ -5,20 +5,28 @@
 	 
 #image-bg
 	background: black
-  
-.hover-over
+
+.screenshot-container
+	position: relative
 	width: 300px
 	height: 225px
-	background: rgba(0,0,0, 0)
+	margin: auto
+
+.screenshot-image, .hover-over
+	width: 100%
+	height: 100%
 	position: absolute
-	z-index: 1
+	top: 0
+	left: 0
+
+.hover-over
+	background: rgba(0,0,0, 0)
+	z-index: 10
 	color: white
 	opacity: 0
-	padding-top: 75px
 	font-size: 40px
 	cursor: pointer
-	left: 5%
-	top: 15px
+	padding-top: 75px
 
 body
 	font-family: Mako
@@ -147,7 +155,7 @@ nav
   
 	a
 		color: black
-		font-size: 35px
+		font-size: 30px
 		font-weight: bold
 		text-decoration: none
 		display: block
@@ -155,15 +163,14 @@ nav
 	p
 		font-family: calibri
 		color: #696863
-		font-size: 20px
-    
+		font-size: 17px
+
 	img
-		width: 300px
-		height: 225px
-		margin-right: 25px
-		margin-bottom: 3px
-		margin-top: 15px
-	
+		min-width: 100%
+		min-height: 100%
+		max-width: 100%
+		max-height: 100%
+
 .container 
 	min-width: 0
 	
@@ -311,13 +318,13 @@ nav
 		
 		#under-text
 			font-size: 60px
-			
-	.hover-over
-		left: 10.5%
-		top: 15px
-		font-size: 65
+
+	.screenshot-container	
 		width: 400px
 		height: 275px
+
+	.hover-over
+		font-size: 65px
 
 	#about
 		input, textarea
@@ -327,11 +334,6 @@ nav
 			width: 450px
 			height: 450px
 
-	#screenshots
-		img
-			width: 400px
-			height: 275px
-
 @media (min-width: 819px)
 	#home
 		#title	
@@ -340,10 +342,6 @@ nav
 			
 		#under-text
 			font-size: 57px
-			
-	.hover-over
-		left: 148px
-		top: 15px
 		
 @media (min-width: 992px)
 	#home
@@ -353,14 +351,6 @@ nav
 	
 		#under-text
 			font-size: 65px
-			
-	.hover-over
-		left: 27px
-		top: 15px
-		
-	.last
-		left: 268px
-		top: 15p
 		
 @media (min-width: 1200px)
 	#home
@@ -374,15 +364,7 @@ nav
 
 	.container
 		min-width: 1300px
-		
-	.hover-over
-		top: 15px
-		left: 15px
-		
-	.last
-		top: 15px
-		left: 15px
-		
+				
 	nav
 		ul
 			margin-left: 55%
