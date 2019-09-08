@@ -19,7 +19,7 @@
 
 .hover-over {
   background: rgba(0, 0, 0, 0);
-  z-index: 10;
+  z-index: 1;
   color: white;
   opacity: 0;
   font-size: 40px;
@@ -63,7 +63,7 @@ nav ul a {
 }
 
 #top {
-  height: 3000px;
+  height: 4009px;
   width: 100%;
   position: absolute;
   background: rgba(0, 0, 0, 0.6);
