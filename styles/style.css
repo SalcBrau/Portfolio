@@ -1,9 +1,3 @@
-#contact hr {
-  color: #222124;
-  background: #222124;
-  height: 5px;
-}
-
 #image-bg {
   background: black;
 }
@@ -43,20 +37,24 @@ nav {
   font-size: 30px;
   opacity: 1;
 }
+
 nav button {
   margin-top: 5px;
   margin-bottom: 5px;
   margin-left: 10px;
 }
+
 nav ul {
   text-align: center;
   width: 100%;
   padding-bottom: 5px;
   margin-top: -11px;
 }
+
 nav ul a:hover {
   color: white;
 }
+
 nav ul a {
   margin-left: 30px;
   margin-top: 10px;
@@ -72,25 +70,31 @@ nav ul a {
   z-index: 3;
   display: none;
 }
+
 #top button {
   border-radius: 50%;
   background: black;
 }
+
 #top #prev, #top #next {
   color: white;
 }
+
 #top #close {
   color: red;
 }
+
 #top #link button {
   color: green;
 }
+
 #top #menu {
   position: fixed;
   left: 250px;
   top: 75px;
   opacity: 0;
 }
+
 #top iframe {
   width: 1350px;
   height: 650px;
@@ -101,6 +105,7 @@ nav ul a {
   -webkit-transform: scale(0.65);
   -webkit-transform-origin: 0 0;
 }
+
 #top #buttons {
   margin-left: 350px;
   margin-top: -220px;
@@ -118,6 +123,7 @@ nav ul a {
   color: white;
   font-family: Mako;
 }
+
 #home #background-image {
   position: absolute;
   width: 100%;
@@ -134,18 +140,22 @@ nav ul a {
   margin: auto;
   padding: 0;
 }
+
 #home #title {
   font-size: 105px;
   margin-top: 50px;
 }
+
 #home #under-text {
   font-size: 50px;
   margin-bottom: 60px;
 }
+
 #home #projects-heading {
   background: white;
   margin-bottom: 0;
 }
+
 #home #projects-title {
   margin-top: 15px;
   margin-bottom: 35px;
@@ -158,9 +168,11 @@ nav ul a {
   margin-top: 25px;
   margin-bottom: 25px;
 }
+
 #screenshots a:hover {
   color: #858481;
 }
+
 #screenshots a {
   color: black;
   font-size: 30px;
@@ -168,11 +180,13 @@ nav ul a {
   text-decoration: none;
   display: block;
 }
+
 #screenshots p {
   font-family: calibri;
   color: #696863;
   font-size: 17px;
 }
+
 #screenshots img {
   min-width: 100%;
   min-height: 100%;
@@ -190,6 +204,7 @@ nav ul a {
   margin-top: -16px;
   padding-bottom: 25px;
 }
+
 #about h1 {
   font-family: Mako;
   font-weight: bold;
@@ -198,12 +213,14 @@ nav ul a {
   margin-bottom: 60px;
   color: #383545;
 }
+
 #about img {
   width: 350px;
   height: 350px;
   border-radius: 50%;
   margin-bottom: 60px;
 }
+
 #about #about-text {
   font-size: 35px;
   max-width: 1000px;
@@ -214,11 +231,13 @@ nav ul a {
   font-family: calibri;
   color: #55506b;
 }
+
 #about hr {
-  width: 600px;
+  width: 400px;
   color: #3d3952;
   background: #726b8f;
 }
+
 #about #contact-text {
   font-size: 35px;
   max-width: 1000px;
@@ -228,10 +247,12 @@ nav ul a {
   color: #55506b;
   margin-top: -25px;
 }
+
 #about form {
   margin-top: 30px;
   display: block;
 }
+
 #about input, #about textarea {
   width: 300px;
   height: 45px;
@@ -239,15 +260,18 @@ nav ul a {
   padding-left: 10px;
   padding-right: 10px;
 }
+
 #about #message {
   height: 450px;
   resize: none;
   padding-top: 3px;
 }
+
 #about #send:hover, #about #reset:hover {
   color: white;
   background: #605563;
 }
+
 #about #send, #about #reset {
   margin-top: 15px;
   font-size: 23px;
@@ -256,6 +280,7 @@ nav ul a {
   color: white;
   background: #48404a;
 }
+
 #about #reset {
   margin-left: 15px;
 }
@@ -265,17 +290,20 @@ nav ul a {
   color: white;
   padding-top: 15px;
 }
+
 #links h5 {
   font-size: 30px;
   font-family: arial;
   margin-top: 5px;
   margin-bottom: 15px;
 }
+
 #links button:hover {
   background: white;
   color: black;
   cursor: pointer;
 }
+
 #links button {
   height: 75px;
   width: 75px;
@@ -286,29 +314,36 @@ nav ul a {
   margin-left: 2.5px;
   margin-right: 2.5px;
 }
+
 #links #github:hover {
   color: white;
   background: black;
 }
+
 #links #github {
   color: black;
   background: white;
   font-size: 17.5px;
 }
+
 #links #github i {
   margin-left: -5.8px;
   margin-top: -6.7px;
 }
+
 #links #codepen, #links #fcc, #links #linkedin {
   position: relative;
   bottom: 13px;
 }
+
 #links #linkedin i {
   margin-left: 2px;
 }
+
 #links #fcc i {
   margin-left: -1px;
 }
+
 #links #link-buttons {
   padding-bottom: 7px;
 }
@@ -330,16 +365,13 @@ nav ul a {
   #home #under-text {
     font-size: 60px;
   }
-
   .screenshot-container {
     width: 400px;
     height: 275px;
   }
-
   .hover-over {
     font-size: 65px;
   }
-
   #about input, #about textarea {
     width: 500px;
   }
@@ -347,7 +379,11 @@ nav ul a {
     width: 450px;
     height: 450px;
   }
+  #about hr {
+    width: 550px;
+  }
 }
+
 @media (min-width: 819px) {
   #home #title {
     font-size: 119px;
@@ -356,7 +392,11 @@ nav ul a {
   #home #under-text {
     font-size: 57px;
   }
+  #about {
+    hr: 600px;
+  }
 }
+
 @media (min-width: 992px) {
   #home #title {
     font-size: 135px;
@@ -366,6 +406,7 @@ nav ul a {
     font-size: 65px;
   }
 }
+
 @media (min-width: 1200px) {
   #home #title {
     font-size: 150px;
@@ -375,25 +416,22 @@ nav ul a {
     font-size: 70px;
     margin-bottom: 60px;
   }
-
   .container {
     min-width: 1300px;
   }
-
   nav ul {
     margin-left: 55%;
     padding-bottom: 5px;
     margin-top: -11px;
   }
-
   #about img {
     width: 550px;
     height: 500px;
   }
 }
+
 .navbar-dark {
   background-color: black;
   border-color: white;
 }
-
 /*# sourceMappingURL=style.css.map */
